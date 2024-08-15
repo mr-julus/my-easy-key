@@ -18,10 +18,27 @@ My Easy Key require:
 
 You can install all the dependencies with the command > npm install @discordjs/rest axios discord.js dotenv firebase fs path readline
 ```
-You have to change the infomations in .env by your Firebase Config, Your Discord Bot token and Your Channel ID
+You have to create a .env file like this :
+```env
+FIREBASE_API_KEY=YOUR-FIREBASE-API-KEY
+FIREBASE_AUTH_DOMAIN=YOUR-FIREBASE-AUTH-DOMAIN
+FIREBASE_DATABASE_URL=YOUR-FIREBASE-DATABASE-URL
+FIREBASE_PROJECT_ID=YOUR-FIREBASE-PROJECT-ID
+FIREBASE_STORAGE_BUCKET=YOUR-FIREBASE-STORAGE-BUCKET
+FIREBASE_MESSAGING_SENDER_ID=YOUR-FIREBASE-MESSAGING-SENDER-ID
+FIREBASE_APP_ID=YOUR-FIREBASE-APP-ID
+FIREBASE_MEASUREMENT_ID=YOUR-FIREBASE-MEASUREMENT-ID
+
+DISCORD_BOT_TOKEN=YOUR-DISCORD-BOT-TOKE
+DISCORD_CHANNEL_ID=YOUR-DISCORD-CHANNEL-ID
+
+MYEASYKEY_VERSION=2
+MYEASYKEY_BETA_VERSION=2t
+```
 !Warning! DONT EDIT MYEASYKEY_VERSION and MYEASYKEY_BETA_VERSION
 
 ## My Easy Key / Discord Bot
+```txt
 > /bot/index.js
 Get the tool (index.js) and api (api.js)
 Create an account
@@ -40,12 +57,14 @@ Sets up the document linked to the user
 Sets up user key in firestore settings file for automatic key change
 Set up key storage space
 Automatically changes key at time entered in firestore settings file
-
+```
 ## My Easy Key / Javascript Tool
+```txt
 > index.js
 Change key
 Set automatic changeover time (5:30pm)
 Obtain account information
+
 > api.js
 Retrieves code from URL
 > admin/reset/used_key.js
@@ -66,14 +85,15 @@ deletes the document linked to the user
 deletes the user's key from the firestore settings file for automatic key change
 > admin/delete/main.js
 Deletes user-related document and user key from firestore settings file for automatic key change.
-
-Translated with DeepL.com (free version)
+```
 
 ## My Easy Key / Node.js Package
 You can use My Easy Key with this command:
-```npm install my-easy-key````
+```link
+npm install my-easy-key
+```
 
-Source Code here of the package : ???
+Source Code here of the package : https://github.com/mr-julus/my-easy-key-module
 
 ## Author
 © Mr-Julus 2024, all rights reserved 
