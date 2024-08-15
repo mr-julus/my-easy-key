@@ -1,0 +1,23 @@
+firestore
+my-easy-key 
+        > TOKEN >> username: username
+                >> activate: true/false
+                >> key: 4468680567K
+                >> used_key
+                >> web_id
+                >> web_number
+                >> url
+                >> token: TOKEN
+
+        > settings >> TOKEN1: 12H31
+                   >> TOKEN2: 17H30
+                       ...
+administrators
+        > adminList >> admins
+
+
+storage
+web_id 
+        > web_number
+                > fichier.txt (?) It's a Default file
+                > index.html (?) It's the file where is the code

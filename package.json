@@ -1,0 +1,22 @@
+{
+  "name": "myeasykey",
+  "version": "1.0.0",
+  "description": "My Easy Key, a program that lets you create and manage temporary keys using Firebase's Firestore Database and Storage",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "tool": "node index"
+  },
+  "author": "mr-julus",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^2.3.0",
+    "axios": "^1.7.2",
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "firebase": "^10.12.3",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "readline": "^1.3.0"
+  }
+}
